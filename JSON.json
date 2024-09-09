@@ -1,0 +1,16 @@
+[
+    {
+        "flightNumber": "UA123",
+        "airline": "United Airlines",
+        "departure": "New York",
+        "arrival": "London",
+        "departureTime": "2024-09-15T09:00:00"
+    },
+    {
+        "flightNumber": "DL456",
+        "airline": "Delta Airlines",
+        "departure": "Los Angeles",
+        "arrival": "Tokyo",
+        "departureTime": "2024-09-16T16:00:00"
+    }
+]

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>Find Your Perfect Flight</h1>
+        <p>Search, Sort, and Filter Flights Easily</p>
+        <button onclick="fetchFlights()">Search Flights</button>
+    </section>
+
+    <!-- Flight Data Display -->
+    <div id="flightData">
+        <!-- Flight data table will be dynamically generated here -->
+    </div>
+
+    <!-- Sign-Up Form -->
+    <form id="signUpForm">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+        <button type="submit">Sign Up</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

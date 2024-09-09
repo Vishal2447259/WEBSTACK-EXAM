@@ -1,0 +1,15 @@
+/* Basic styling for hero, form, and data display */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#hero {
+    background: url('hero-image.webp') center center/cover no-repeat;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+#signUpForm {
+    margin-top: 30px;
+}
